@@ -1,13 +1,10 @@
-{% extends "template.html" %} {% block title %}Clips{% endblock %} {% block content
+{% extends "template.html" %} {% block title %}Notes{% endblock %} {% block content
     %}
-    <h1 align="center">Clips</h1>
+    <h1 align="center">Video Clips</h1>
 
-
-    <center>
-      <iframe width="560" height="315"  src="https://www.youtube.com/embed/aZeTRx2gTX4?si=YLqusJ3BSmoYwJXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </center>
-
-  
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aZeTRx2gTX4?si=evQlbJa533lY0uYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>    
     <ul class="list-group list-group-flush" id="notes">
       {% for note in user.notes %}
       <li class="list-group-item">
@@ -26,4 +23,3 @@
       </div>
     </form>
     {% endblock %}
-
