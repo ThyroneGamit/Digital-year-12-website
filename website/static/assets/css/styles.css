@@ -1,7 +1,5 @@
-.generation {
-    background-image: url("static/assets/img/background.jpeg");
+<style>
+p {
+  background-image: url('background.jpeg');
 }
-
-.body {
-    background-image: url('static/assets/img/background.jpeg');
-  }
+</style>
